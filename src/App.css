@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+  /* background-color: aqua; */
+}
+
+body{
+  background-image: url(https://www.rd.com/wp-content/uploads/2021/01/GettyImages-675916328-1153806803.jpg);
+  background-size: cover;
+  object-fit: cover;
+  background-attachment:fixed;
+}
+.h1{
+  text-align: center;
+  color: white;
+  display: inline-block;
+  
+}
+
+.h3{
+  
+  color: white;
+  display: inline-block;
+  
+}
+.h2{
+  
+  color: white;
+  display: inline-block;
+  
+}
+
+p{
+  color: white;
+}
+
+
+.mainDiv {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.div1, .div2, .div3, .div4 {
+  flex: 1; /* make each div take equal space */
+  height: 600px;
+  margin: 20px; /* add some margin for spacing */
+}
+
+/* .div1 {
+  background-color: rgb(201, 121, 17);
+}
+
+.div2 {
+  background-color: blue;
+}
+
+.div3 {
+  background-color: blueviolet;
+}
+
+.div4 {
+  background-color: brown;
+} */
+
